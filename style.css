@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center; 
+    color: violet;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+td, th, div {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 19px;
+    text-align: center; 
+    
+}
+
+
+body {
+    background-color: lightblue;
+}
+
+div {
+
+}
