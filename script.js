@@ -1,11 +1,11 @@
-const API_LINK = "http://api.aladhan.com/v1/timingsByCity?city=paris&country=FR&method=8";
+const API_LINK = "https://api.aladhan.com/v1/timingsByCity?city=paris&country=FR&method=8";
 
 fetch(API_LINK)
    .then(response => response.json())
    .then(json => console.log(JSON.stringify(json)));
 
 async function getPrayers() {
-   let url = 'http://api.aladhan.com/v1/timingsByCity?city=paris&country=FR&method=8';
+   let url = 'https://api.aladhan.com/v1/timingsByCity?city=paris&country=FR&method=8';
    try {
       let res = await fetch(url);
       return await res.json(); 
